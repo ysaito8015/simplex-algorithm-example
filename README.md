@@ -7,8 +7,8 @@
 
 ### 前提
 以下がインストールされていること
-- uv
-- Go
+- [uv](https://docs.astral.sh/uv/)
+- [Go](https://go.dev/)
 
 ### 準備
 
@@ -21,6 +21,7 @@ $ git clone https://github.com/ysaito8015/simplex-algoritm-example
 
 ```sh
 $ cd simplex-algoritm-example/python
+$ uv venv
 $ uv run solve.py
 ```
 
